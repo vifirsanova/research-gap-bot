@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>slonichavkedach</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="sidebar-header">slonichavkedach</div>
+      <button class="sidebar-btn new-chat">
+        <span class="icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <circle cx="14" cy="14" r="12" stroke="#fff" stroke-width="2"/>
+            <line x1="14" y1="8" x2="14" y2="20" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            <line x1="8" y1="14" x2="20" y2="14" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        новый чат
+      </button>
+      <button class="sidebar-btn notes">
+        <span class="icon">
+          <!-- Минималистичная белая иконка заметок -->
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <rect x="6" y="8" width="16" height="12" rx="3" stroke="#fff" stroke-width="2"/>
+            <line x1="9" y1="12" x2="19" y2="12" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+            <line x1="9" y1="16" x2="16" y2="16" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        заметки
+      </button>
+      <div class="chat-history">ещё нет<br>истории чата</div>
+      <div class="sidebar-bottom">
+        <button class="sidebar-btn settings">
+          <span class="icon">
+            <!-- Белая иконка шестерёнки -->
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <circle cx="14" cy="14" r="5" stroke="#fff" stroke-width="2"/>
+              <g stroke="#fff" stroke-width="2" stroke-linecap="round">
+                <line x1="14" y1="3" x2="14" y2="6"/>
+                <line x1="14" y1="22" x2="14" y2="25"/>
+                <line x1="3" y1="14" x2="6" y2="14"/>
+                <line x1="22" y1="14" x2="25" y2="14"/>
+                <line x1="6.6" y1="6.6" x2="8.8" y2="8.8"/>
+                <line x1="19.2" y1="19.2" x2="21.4" y2="21.4"/>
+                <line x1="6.6" y1="21.4" x2="8.8" y2="19.2"/>
+                <line x1="19.2" y1="8.8" x2="21.4" y2="6.6"/>
+              </g>
+            </svg>
+          </span>
+          настройки
+        </button>
+    </aside>
+    <main class="main-content">
+      <div class="main-center">
+        <div class="logo">
+          <img src="https://raw.githubusercontent.com/vifirsanova/research-gap-bot/main/assets/img/logo.png" alt="The elephant logo" width="150px"> 
+        </div>
+        <div class="title">slonichavkedach</div>
+        <div class="subtitle">найди то, что ещё не изучено</div>
+        <form class="search-form">
+          <input type="text" placeholder="Укажите область исследования..." />
+          <input type="file" id="attachment" style="display:none"/>
+          <button title="Прикрепите ваш документ" id="attchBtn" class="attchBtn"><img src="https://raw.githubusercontent.com/vifirsanova/research-gap-bot/main/assets/img/paperclip.png" width="45px"></button>
+          <button type="submit" class="send-btn">
+            <button title="Отправьте сообщение" id="sendBtn" class="sendBtn"><img src="https://raw.githubusercontent.com/vifirsanova/research-gap-bot/main/assets/img/send_button.png" width="28px"></button>
+        </form>
+        <div class="disclaimer">
+          *сгенерированная информация не всегда является достоверной
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></
