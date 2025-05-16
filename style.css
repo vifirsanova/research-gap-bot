@@ -7,6 +7,10 @@ body {
   min-height: 100vh;
 }
 
+.disclaimer {
+  color: rgba(255, 255, 255, 80%);
+}
+
 .attchBtn {
   background-color: transparent;
   border-color: transparent;
